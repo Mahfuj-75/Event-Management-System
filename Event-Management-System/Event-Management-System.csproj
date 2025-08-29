@@ -54,6 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,7 +71,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +88,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eventBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5087727.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online Registration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usernameicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backbtn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

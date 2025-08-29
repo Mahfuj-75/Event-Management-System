@@ -10,15 +10,14 @@ using System.Windows.Forms;
 
 namespace Event_Management_System
 {
-    public partial class Form1 : Form
+    public partial class Register : Form
     {
-        public Form1()
+        public Register()
         {
             InitializeComponent();
         }
 
-        
-        private void Form1_Load(object sender, EventArgs e)
+        private void Register_Load(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Normal)
             {
@@ -26,15 +25,10 @@ namespace Event_Management_System
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnback_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void linksignup_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Register r= new Register();
-            r.Show();
+            Form1 f= new Form1();
+            f.Show();
             this.Hide();
         }
     }
