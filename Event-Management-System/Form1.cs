@@ -37,5 +37,10 @@ namespace Event_Management_System
             r.Show();
             this.Hide();
         }
+
+        private void txtpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

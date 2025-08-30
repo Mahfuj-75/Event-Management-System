@@ -31,5 +31,7 @@ namespace Event_Management_System
             f.Show();
             this.Hide();
         }
+
+       
     }
 }

@@ -47,6 +47,7 @@
             // 
             // picBoxLogin
             // 
+            this.picBoxLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picBoxLogin.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLogin.BackgroundImage = global::Event_Management_System.Properties.Resources._5087727;
             this.picBoxLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -59,6 +60,7 @@
             // 
             // logpanel
             // 
+            this.logpanel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.logpanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.logpanel.BackgroundImage = global::Event_Management_System.Properties.Resources.logBack;
             this.logpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
@@ -69,23 +71,27 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtUsername.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsername.Location = new System.Drawing.Point(489, 275);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(230, 31);
+            this.txtUsername.Size = new System.Drawing.Size(230, 30);
             this.txtUsername.TabIndex = 2;
             // 
             // txtpass
             // 
+            this.txtpass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtpass.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpass.Location = new System.Drawing.Point(489, 339);
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '•';
             this.txtpass.Size = new System.Drawing.Size(230, 31);
             this.txtpass.TabIndex = 3;
+            this.txtpass.TextChanged += new System.EventHandler(this.txtpass_TextChanged);
             // 
             // lblAcc
             // 
+            this.lblAcc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAcc.AutoSize = true;
             this.lblAcc.BackColor = System.Drawing.Color.Transparent;
             this.lblAcc.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -98,6 +104,7 @@
             // 
             // btnlogin
             // 
+            this.btnlogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnlogin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.Location = new System.Drawing.Point(489, 401);
@@ -109,6 +116,7 @@
             // 
             // lblforgot
             // 
+            this.lblforgot.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblforgot.AutoSize = true;
             this.lblforgot.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblforgot.ForeColor = System.Drawing.Color.CornflowerBlue;
@@ -120,6 +128,7 @@
             // 
             // linksignup
             // 
+            this.linksignup.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.linksignup.AutoSize = true;
             this.linksignup.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linksignup.Location = new System.Drawing.Point(495, 459);
@@ -132,6 +141,7 @@
             // 
             // lblWelcome
             // 
+            this.lblWelcome.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(12, 136);
@@ -142,17 +152,19 @@
             // 
             // lblevent
             // 
+            this.lblevent.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblevent.AutoSize = true;
             this.lblevent.BackColor = System.Drawing.Color.Transparent;
             this.lblevent.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblevent.Location = new System.Drawing.Point(13, 224);
             this.lblevent.Name = "lblevent";
-            this.lblevent.Size = new System.Drawing.Size(329, 92);
+            this.lblevent.Size = new System.Drawing.Size(323, 90);
             this.lblevent.TabIndex = 11;
             this.lblevent.Text = "Event Management\r\nSystem\r\n";
             // 
             // picBoxUser
             // 
+            this.picBoxUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picBoxUser.BackgroundImage = global::Event_Management_System.Properties.Resources.usernameicon;
             this.picBoxUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picBoxUser.Location = new System.Drawing.Point(434, 275);
@@ -163,6 +175,7 @@
             // 
             // picBoxPass
             // 
+            this.picBoxPass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picBoxPass.BackgroundImage = global::Event_Management_System.Properties.Resources.passIcon;
             this.picBoxPass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picBoxPass.Location = new System.Drawing.Point(434, 340);
