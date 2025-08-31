@@ -32,6 +32,9 @@ namespace Event_Management_System
             this.Hide();
         }
 
-       
+        private void btnregister_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

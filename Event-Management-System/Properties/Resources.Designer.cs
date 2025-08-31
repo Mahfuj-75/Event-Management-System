@@ -143,6 +143,36 @@ namespace Event_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap profile_icon_login_head_icon_vector {
+            get {
+                object obj = ResourceManager.GetObject("profile-icon-login-head-icon-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profile_icon_login_head_icon_vector1 {
+            get {
+                object obj = ResourceManager.GetObject("profile-icon-login-head-icon-vector1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profile_icon_login_head_icon_vector2 {
+            get {
+                object obj = ResourceManager.GetObject("profile-icon-login-head-icon-vector2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap regback {
             get {
                 object obj = ResourceManager.GetObject("regback", resourceCulture);

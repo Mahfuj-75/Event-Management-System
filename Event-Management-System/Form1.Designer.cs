@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.picBoxLogin = new System.Windows.Forms.PictureBox();
-            this.logpanel = new System.Windows.Forms.Panel();
+            this.logdesignpanel = new System.Windows.Forms.Panel();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtpass = new System.Windows.Forms.TextBox();
             this.lblAcc = new System.Windows.Forms.Label();
@@ -58,16 +58,16 @@
             this.picBoxLogin.TabStop = false;
             this.picBoxLogin.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // logpanel
+            // logdesignpanel
             // 
-            this.logpanel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.logpanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.logpanel.BackgroundImage = global::Event_Management_System.Properties.Resources.logBack;
-            this.logpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.logpanel.Location = new System.Drawing.Point(343, -2);
-            this.logpanel.Name = "logpanel";
-            this.logpanel.Size = new System.Drawing.Size(10, 537);
-            this.logpanel.TabIndex = 0;
+            this.logdesignpanel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.logdesignpanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.logdesignpanel.BackgroundImage = global::Event_Management_System.Properties.Resources.logBack;
+            this.logdesignpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.logdesignpanel.Location = new System.Drawing.Point(343, -2);
+            this.logdesignpanel.Name = "logdesignpanel";
+            this.logdesignpanel.Size = new System.Drawing.Size(10, 537);
+            this.logdesignpanel.TabIndex = 0;
             // 
             // txtUsername
             // 
@@ -82,7 +82,7 @@
             // 
             this.txtpass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtpass.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.Location = new System.Drawing.Point(489, 339);
+            this.txtpass.Location = new System.Drawing.Point(489, 331);
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '•';
             this.txtpass.Size = new System.Drawing.Size(230, 31);
@@ -105,24 +105,26 @@
             // btnlogin
             // 
             this.btnlogin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlogin.ForeColor = System.Drawing.Color.Transparent;
             this.btnlogin.Location = new System.Drawing.Point(489, 401);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(83, 34);
+            this.btnlogin.Size = new System.Drawing.Size(230, 38);
             this.btnlogin.TabIndex = 7;
             this.btnlogin.Text = "Login";
-            this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.UseVisualStyleBackColor = false;
             // 
             // lblforgot
             // 
             this.lblforgot.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblforgot.AutoSize = true;
-            this.lblforgot.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblforgot.Font = new System.Drawing.Font("Segoe UI Semibold", 7.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblforgot.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.lblforgot.Location = new System.Drawing.Point(602, 410);
+            this.lblforgot.Location = new System.Drawing.Point(602, 363);
             this.lblforgot.Name = "lblforgot";
-            this.lblforgot.Size = new System.Drawing.Size(117, 17);
+            this.lblforgot.Size = new System.Drawing.Size(109, 17);
             this.lblforgot.TabIndex = 8;
             this.lblforgot.Text = "Forgot password?";
             // 
@@ -131,7 +133,7 @@
             this.linksignup.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.linksignup.AutoSize = true;
             this.linksignup.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linksignup.Location = new System.Drawing.Point(495, 459);
+            this.linksignup.Location = new System.Drawing.Point(501, 470);
             this.linksignup.Name = "linksignup";
             this.linksignup.Size = new System.Drawing.Size(202, 17);
             this.linksignup.TabIndex = 9;
@@ -178,7 +180,7 @@
             this.picBoxPass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.picBoxPass.BackgroundImage = global::Event_Management_System.Properties.Resources.passIcon;
             this.picBoxPass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picBoxPass.Location = new System.Drawing.Point(434, 340);
+            this.picBoxPass.Location = new System.Drawing.Point(434, 332);
             this.picBoxPass.Name = "picBoxPass";
             this.picBoxPass.Size = new System.Drawing.Size(31, 31);
             this.picBoxPass.TabIndex = 13;
@@ -203,7 +205,7 @@
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.picBoxLogin);
-            this.Controls.Add(this.logpanel);
+            this.Controls.Add(this.logdesignpanel);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Login";
@@ -218,7 +220,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel logpanel;
+        private System.Windows.Forms.Panel logdesignpanel;
         private System.Windows.Forms.PictureBox picBoxLogin;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtpass;
